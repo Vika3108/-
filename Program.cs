@@ -35,4 +35,21 @@ else
 Console.WriteLine("Введенное число является нечетным"); 
 */
 
-
+/* Восьмая задача
+Console.WriteLine("Введите число");
+int N = int.Parse(Console.ReadLine());
+int i = 0, k = 0;            
+while (true)
+{
+	if (i % 2 == 0)
+	{
+		Console.Write(i + " ");
+		k++;
+	}
+	if (k > N)
+	{
+		break;
+	}
+	i++;
+}
+*/
